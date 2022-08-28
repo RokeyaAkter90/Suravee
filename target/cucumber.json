@@ -1,0 +1,88 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Verify user can see new homes",
+        "description": "",
+        "id": "this-is-a-validate-user-can-see-new-homes;verify-user-can-see-new-homes",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 11341752000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Lauch BOFA application url",
+            "match": {
+              "location": "BoAMultipleWindows.lauch_BOFA_application_url()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3965857600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Click on Home Loans Link",
+            "match": {
+              "location": "BoAMultipleWindows.click_on_Home_Loans_Link()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4696683800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Click on Find a home Link",
+            "match": {
+              "location": "BoAMultipleWindows.click_on_Find_a_home_Link()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1176453200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Click on New Construction",
+            "match": {
+              "location": "BoAMultipleWindows.click_on_New_Construction()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3712444200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Verify user can see new construction homes",
+            "match": {
+              "location": "BoAMultipleWindows.verify_user_can_see_new_construction_homes()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 3,
+            "name": "@BOFA"
+          }
+        ]
+      }
+    ],
+    "name": "This is a validate user can see new homes",
+    "description": "",
+    "id": "this-is-a-validate-user-can-see-new-homes",
+    "keyword": "Feature",
+    "uri": "BoAMultipleWindows.feature"
+  }
+]
